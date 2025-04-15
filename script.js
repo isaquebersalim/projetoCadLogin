@@ -19,6 +19,7 @@ const form = document.getElementById('loginForm');
       // Aqui você pode adicionar sua lógica de autenticação
       errorMsg.style.color = 'green';
       errorMsg.textContent = 'Login bem-sucedido!';
+      window.location.href = "cadastro.html";
     });
 
     function toggleMode() {
